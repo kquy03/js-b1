@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chương 3: To-do List (JS & jQuery)</title>
+    <link rel="stylesheet" href="c3.css">
+</head>
+<body>
+    <main class="todo-app">
+        <header>
+            <h1>Danh Sách Công Việc</h1>
+            <p>Bấm vào tên việc để đánh dấu hoàn thành</p>
+        </header>
+
+        <section class="input-group">
+            <input type="text" id="task-input" placeholder="Nhập công việc cần làm...">
+            <button type="button" id="add-btn">Thêm</button>
+        </section>
+
+        <ul id="task-list">
+            <li>
+                <span>Ôn tập các thẻ HTML cơ bản</span>
+                <button type="button" class="delete-btn">Xóa</button>
+            </li>
+            <li>
+                <span>Đẩy bài tập lên GitHub</span>
+                <button type="button" class="delete-btn">Xóa</button>
+            </li>
+        </ul>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
